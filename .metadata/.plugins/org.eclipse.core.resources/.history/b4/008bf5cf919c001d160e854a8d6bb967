@@ -1,0 +1,9 @@
+package net.javaguides.springboot.entity;
+
+import lombok.Data;
+
+@Data
+public class Student {
+private String sid;
+private String sname;
+}
